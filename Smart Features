@@ -1,0 +1,6 @@
+"""
+In this program, the user will input their dealine names and when it is due and the program calculates how many days, hours,
+or minutes the user will have left. There is an option where you can add more dealines, and it will also calculate that. 
+For example, you have a math project due. You input the name and due date and the program will ask you if there are anymore
+you need to input, if none, it proceed to automatically calculate how much time you have left.
+"""
