@@ -4,6 +4,8 @@ Group Members: Sofia Palad, Naiah Intong, Isha Shekar
 Description: A task reminder system for PSHS students.
 """
 
+cd = input("Enter current date (YYYY-MM-DD)") 
+
 def main(): 
   # Setup lists to store data
   task_names = []
@@ -28,3 +30,8 @@ def main():
 
 if __name__ == "__main__":
   main()
+  print("Days you have left: ", date-cd) 
+'''
+This automatically calculates the days you have
+left, not just the things you input. 
+'''
