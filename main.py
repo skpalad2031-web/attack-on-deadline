@@ -30,7 +30,8 @@ def main():
 
 if __name__ == "__main__":
   main()
-  print("Days you have left: ", date-cd) 
+  days_left = (datetime.strptime(date, "%Y-%m-%d) - datetime.strptime(cd,"%Y-%m-%d")).days
+  print("Days you have left: " days_left)
 '''
 This automatically calculates the days you have
 left, not just the things you input. 
